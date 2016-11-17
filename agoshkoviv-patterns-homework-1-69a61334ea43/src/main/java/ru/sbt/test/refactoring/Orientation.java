@@ -10,7 +10,7 @@ public enum Orientation {
 
         @Override
         Orientation turnClockWise() {
-            return SOUTH;
+            return EAST;
         }
     }, WEST {
         @Override
@@ -20,7 +20,7 @@ public enum Orientation {
 
         @Override
         Orientation turnClockWise() {
-            return EAST;
+            return NORTH;
         }
     }, SOUTH {
         @Override
@@ -30,7 +30,7 @@ public enum Orientation {
 
         @Override
         Orientation turnClockWise() {
-            return NORTH;
+            return WEST;
         }
     }, EAST {
         @Override
@@ -40,7 +40,7 @@ public enum Orientation {
 
         @Override
         Orientation turnClockWise() {
-            return WEST;
+            return SOUTH;
         }
     };
 
